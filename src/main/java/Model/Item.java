@@ -9,7 +9,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlAccessorType(XmlAccessType.FIELD)
 @Data
 public class Item {
-    private String title, category, sub, clicks, karma;
-    private String pubDate, negatives;
-    private String url;
+    private String title, category, author;
+    private String votes;
+    private String pubDate;
 }
