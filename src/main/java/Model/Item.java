@@ -10,6 +10,6 @@ import javax.xml.bind.annotation.XmlRootElement;
 @Data
 public class Item {
     private String title, category, author;
-    private String votes;
+    private int votes;
     private String pubDate;
 }
